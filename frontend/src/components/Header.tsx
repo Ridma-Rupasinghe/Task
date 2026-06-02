@@ -1,6 +1,6 @@
 import { useTheme } from 'next-themes'
 import { motion } from 'framer-motion'
-import logo from '../assets/logo.webp'
+import logo from '/logo.webp'
 
 export default function Header() {
   const { theme, setTheme } = useTheme()
