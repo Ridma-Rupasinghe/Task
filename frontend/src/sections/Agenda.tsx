@@ -117,7 +117,7 @@ export default function Agenda() {
             <button
               type="button"
               onClick={() => void handleAllSessions()}
-              className={`rounded-full border px-3 py-1 text-[11px] font-medium tracking-wide transition-all ${
+              className={`rounded-full border px-3 py-1 text-[11px] font-medium cursor-pointer  tracking-wide transition-all ${
                 selectedKeyword === null && !agendaQuery.trim()
                   ? "border-[rgb(var(--accent))]/40 bg-[rgb(var(--accent))]/10 text-[rgb(var(--accent))]"
                   : "border-[rgb(var(--border))] bg-[rgb(var(--card))] text-[rgb(var(--muted))] hover:border-[rgb(var(--accent))]/40 hover:text-[rgb(var(--accent))]"
@@ -130,7 +130,7 @@ export default function Agenda() {
                 key={k}
                 type="button"
                 onClick={() => void handleKeywordClick(k)}
-                className={`rounded-full border px-3 py-1 text-[11px] font-medium tracking-wide transition-all ${
+                className={`rounded-full cursor-pointer border px-3 py-1 text-[11px] font-medium tracking-wide transition-all ${
                   selectedKeyword === k
                     ? "border-[rgb(var(--gold))]/40 bg-[rgb(var(--gold))]/10 text-[rgb(var(--gold))]"
                     : "border-[rgb(var(--border))] bg-[rgb(var(--card))] text-[rgb(var(--muted))] hover:border-[rgb(var(--accent))]/40 hover:text-[rgb(var(--accent))]"

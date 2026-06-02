@@ -127,7 +127,7 @@ export default function Invite() {
                 <button
                   type="submit"
                   disabled={isSubmitting}
-                  className="btn-primary w-full flex items-center justify-center gap-2 py-2.5"
+                  className="cursor-pointer btn-primary w-full flex items-center justify-center gap-2 py-2.5"
                 >
                   {isSubmitting ? (
                     <>

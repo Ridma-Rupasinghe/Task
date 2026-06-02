@@ -44,7 +44,7 @@ function SessionModal({ session, onClose }: { session: AgendaSession; onClose: (
             type="button"
             onClick={onClose}
             aria-label="Close"
-            className="absolute right-4 top-4 flex h-8 w-8 items-center justify-center rounded-full border border-[rgb(var(--border))] bg-[rgb(var(--card))] text-[rgb(var(--muted))] transition-all hover:border-[rgb(var(--accent))]/40 hover:text-[rgb(var(--fg))]"
+            className="absolute cursor-alias right-4 top-4 flex h-8 w-8 items-center justify-center rounded-full border border-[rgb(var(--border))] bg-[rgb(var(--card))] text-[rgb(var(--muted))] transition-all hover:border-[rgb(var(--accent))]/40 hover:text-[rgb(var(--fg))]"
           >
             <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
               <line x1="18" y1="6" x2="6" y2="18" /><line x1="6" y1="6" x2="18" y2="18" />
@@ -121,7 +121,7 @@ export default function SessionCard({ session }: { session: AgendaSession }) {
           <button
             type="button"
             onClick={() => setOpen(true)}
-            className="shrink-0 self-start rounded-xl border border-[rgb(var(--border))] bg-[rgb(var(--bg))] px-3 py-1.5 text-xs font-medium text-[rgb(var(--muted))] transition-all hover:border-[rgb(var(--accent))]/40 hover:bg-[rgb(var(--accent))]/8 hover:text-[rgb(var(--accent))]"
+            className="cursor-pointer shrink-0 self-start rounded-xl border border-[rgb(var(--border))] bg-[rgb(var(--bg))] px-3 py-1.5 text-xs font-medium text-[rgb(var(--muted))] transition-all hover:border-[rgb(var(--accent))]/40 hover:bg-[rgb(var(--accent))]/8 hover:text-[rgb(var(--accent))]"
           >
             Details
           </button>

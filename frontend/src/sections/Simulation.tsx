@@ -119,7 +119,7 @@ const CircularStepper: React.FC = () => {
                   )}`}
                 >
                   <h4
-                    className={`font-semibold mb-3 font-semi ${getColorClassesS(
+                    className={`font-semibold mb-3 font-semi text-display ${getColorClassesS(
                       currentStepData.color,
                       "text"
                     )}`}

@@ -45,7 +45,7 @@ export default function Header() {
           <button
             type="button"
             onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
-            className="flex h-9 w-9 items-center justify-center rounded-xl border border-[rgb(var(--border))] bg-[rgb(var(--card))] text-[rgb(var(--muted))] shadow-sm transition-all hover:border-[rgb(var(--accent))]/40 hover:text-[rgb(var(--fg))]"
+            className="flex h-9 w-9 items-center cursor-pointer justify-center rounded-xl border border-[rgb(var(--border))] bg-[rgb(var(--card))] text-[rgb(var(--muted))] shadow-sm transition-all hover:border-[rgb(var(--accent))]/40 hover:text-[rgb(var(--fg))]"
             aria-label="Toggle theme"
           >
             {theme === 'dark' ? (
