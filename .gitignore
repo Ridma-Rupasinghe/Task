@@ -1,0 +1,134 @@
+# ==========================================
+# OS Files
+# ==========================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==========================================
+# Environment Variables
+# ==========================================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Backend Data Files
+backend/data/keywords.py
+backend/data/sessions.py
+
+
+
+# ==========================================
+# Python / FastAPI
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python Build Files
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# ==========================================
+# Node.js / Next.js
+# ==========================================
+node_modules/
+
+# Next.js
+.next/
+out/
+
+# Package Managers
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ==========================================
+# IDEs & Editors
+# ==========================================
+.vscode/
+.idea/
+
+# JetBrains
+*.iml
+
+# Visual Studio
+.vs/
+
+# ==========================================
+# Logs
+# ==========================================
+logs/
+*.log
+
+# ==========================================
+# Deployment
+# ==========================================
+.vercel
+.netlify
+
+# ==========================================
+# Cache Files
+# ==========================================
+.cache/
+.parcel-cache/
+.eslintcache
+
+# ==========================================
+# Temporary Files
+# ==========================================
+tmp/
+temp/
+*.tmp
+
+# ==========================================
+# SQLite Databases (if used)
+# ==========================================
+*.sqlite
+*.db
+
+# ==========================================
+# FastAPI Runtime Files
+# ==========================================
+*.pid
+
+# ==========================================
+# Coverage Reports
+# ==========================================
+coverage/
+coverage.xml
+
+# ==========================================
+# Secrets & Keys
+# ==========================================
+*.pem
+*.key
+*.crt
+secrets.json
+
+# ==========================================
+# Misc
+# ==========================================
+*.swp
+*.swo

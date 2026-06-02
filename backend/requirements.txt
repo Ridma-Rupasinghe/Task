@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+pydantic
+email-validator
+numpy
+scikit-learn
+sentence-transformers
+openai
+httpx
+python-dotenv
+
