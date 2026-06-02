@@ -226,7 +226,7 @@ export default function NeuralNetwork({
                 y={radius * 0.3}
                 className={`${
                   isHovered ? "fill-[rgb(var(--fgs))]" : "fill-[rgb(var(--fg))]"
-                }   transition-colors duration-300 font-semi text-pretty text-base`}
+                }   transition-colors duration-300 text-[11px] sm:text-[15px] md:text-[16px] lg:text-[18px] font-body font-semibold`}
                 textAnchor="middle"
               >
                 {node.label}

@@ -35,7 +35,7 @@ const CircularStepper: React.FC = () => {
   const currentStepData = steps[currentStep];
 
   return (
-    <section id="simulation" className=" pb-20 flex flex-col ">
+    <section id="simulation" className=" pb-20 flex flex-col px-6 lg:px-0 ">
 
       
 
