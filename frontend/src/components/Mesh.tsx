@@ -14,7 +14,8 @@ export default function NeuralNetwork({
 }: Neural) {
   return (
     <div className="relative flex items-center justify-center ">
-      <svg 
+      <svg
+        fontFamily="Sora, sans-serif"
         viewBox={viewBox}
         className="w-full max-w-md lg:max-w-lg mx-auto"
         style={{ touchAction: "none" }}
@@ -223,10 +224,10 @@ export default function NeuralNetwork({
                 </div>
               </foreignObject>
               <text
+                style={{ fontFamily: "Sora, sans-serif" }}
+                fill={isHovered ? "rgb(var(--fgs))" : "rgb(var(--muted))"}
                 y={radius * 0.3}
-                className={`${
-                  isHovered ? "fill-[rgb(var(--fgs))]" : "fill-[rgb(var(--fg))]"
-                }   transition-colors duration-300 text-[11px] sm:text-[15px] md:text-[16px] lg:text-[18px] font-body font-semibold`}
+                className={` font-semibold transition-colors duration-300 text-[11px] sm:text-[15px] md:text-[16px] lg:text-[18px] `}
                 textAnchor="middle"
               >
                 {node.label}

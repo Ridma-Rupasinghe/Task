@@ -126,14 +126,14 @@ const activeNode = selectedNode ?? hoveredNode;
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.55, ease, delay: 0 }}
           >
-            <span className="section-label">AI-Powered Event Experience</span>
+            <span className="section-label ">AI-Powered Event Experience</span>
           </motion.div>
 
           <motion.h1
             initial={{ opacity: 0, y: 16 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.55, ease, delay: 0.08 }}
-            className="mt-3 text-balance text-4xl font-semibold leading-[1.15] tracking-tight text-display sm:text-5xl lg:text-[3.25rem]"
+            className="mt-3  text-balance text-4xl font-semibold leading-[1.15] tracking-tight text-display sm:text-5xl lg:text-[3.25rem]"
           >
             A modern interactive experience—
             <span className="italic text-[rgb(var(--accent))]"> powered</span> by AI.

@@ -19,7 +19,7 @@ export default function Header() {
             <img src={logo} className="h-10 w-10 rounded-lg" alt="Logo" />
           </div>
           <div className="min-w-0 leading-tight">
-            <div className="text-[10px] font-semibold tracking-[0.18em] uppercase text-[rgb(var(--accent))]">
+            <div className="text-[10px] font-semibold tracking-[0.18em] uppercase text-[rgb(var(--accent))] text-body">
               AccelAlpha × Oracle
             </div>
             <div className="truncate text-sm font-semibold text-display">
@@ -32,13 +32,13 @@ export default function Header() {
         <nav className="flex items-center gap-2">
           <a
             href="#agenda"
-            className="hidden sm:inline-flex items-center btn-ghost text-xs sm:text-sm"
+            className="hidden sm:inline-flex items-center btn-ghost text-xs sm:text-sm text-body"
           >
             Agenda
           </a>
           <a
             href="#invite"
-            className="btn-primary text-xs sm:text-sm"
+            className="btn-primary text-xs sm:text-sm text-body"
           >
             <span className="hidden xs:inline">Get personalized </span>invite
           </a>
